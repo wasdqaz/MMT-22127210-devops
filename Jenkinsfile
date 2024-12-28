@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Stage') {
             steps {
-                git branch: 'main', url: 'https://github.com/21127209/MMT3.git'
+                git branch: 'main', url: 'https://github.com/wasdqaz/MMT-22127210-devops.git'
             }
         }
 
